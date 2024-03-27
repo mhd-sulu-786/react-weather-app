@@ -44,6 +44,21 @@ function App() {
         }else if(weatherMain === 'Rain') {
           setImg(Rain);
           
+        }else if(weatherMain === 'Clouds') {
+          setImg(Clouds);
+          
+        }else if(weatherMain === 'Snow') {
+          setImg(Snow);
+          
+        }else if(weatherMain === 'Clear') {
+          setImg(Clear);
+          
+        }else if(weatherMain === 'Mist') {
+          setImg(Mist);
+          
+        }else if(weatherMain === 'Drizzle') {
+          setImg(Drizzle);
+          
         }
          else {
           // If no match found, set default image or handle accordingly
