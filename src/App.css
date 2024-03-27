@@ -16,12 +16,13 @@
   padding: 20px;
 }
 .output-2 {
-  padding: 20px;
+  padding: 5px;
   font-size: 16px;
+  color: blue;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  align-items: baseline;
+  align-items: baseline !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
